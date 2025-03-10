@@ -3,11 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: #f6f6f6;
+}
+span {
+  font-size: 40px;
+}
 .box {
+  height: 100%;
   padding: 20px;
   width: 100%;
-  background: #f6f6f6;
-  margin-top: 30px;
+  margin-top: 70px;
   display: flex;
   gap: 20px;
   flex-direction: column;
@@ -15,7 +21,9 @@
   justify-content: center;
 }
 .btn button {
-  padding: 10px 20px;
+  font-size: 30px;
+  margin-left: 20px;
+  padding: 40px 70px;
   border: none;
   border-radius: 8px;
   background: rgb(84, 216, 84);
@@ -27,7 +35,9 @@
   background: rgb(104, 223, 104);
 }
 button {
-  padding: 10px 20px;
+  font-size: 30px;
+  margin-top: 100px;
+  padding: 40px 70px;
   border: none;
   border-radius: 8px;
   color: #fff;
