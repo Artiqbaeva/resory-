@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  padding: 20px;
+  width: 100%;
+  background: #f6f6f6;
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(84, 216, 84);
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.btn button:hover {
+  background: rgb(104, 223, 104);
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  letter-spacing: 2px;
+  background: red;
+  font-weight: 700;
+}
+button:hover {
+  background: rgb(231, 74, 74);
+}
